@@ -1,0 +1,3 @@
+Sum: 357
+Smallest:1
+Largest:89
