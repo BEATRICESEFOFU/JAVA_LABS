@@ -10,7 +10,7 @@ public class Question6 {
         int number;
         int total = 0;
 
-        // 
+        // Implement a do-while loop that prompts the user to enter a number and adds it to a total until the user enters 0
         do {
             System.out.print("Enter a number (0 to stop):");
             number = scanner.nextInt();
@@ -18,6 +18,7 @@ public class Question6 {
 
         } while (number != 0);
 
+        // Print the final total
         System.out.println("Final total: " + total);
 
         scanner.close();

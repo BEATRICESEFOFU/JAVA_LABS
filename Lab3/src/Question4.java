@@ -9,7 +9,7 @@ public class Question4 {
         Scanner scanner = new Scanner(System.in);
         int choice;
 
-        //
+        // Implement a do-while loop that continues until the user chooses to exit
         do {
             System.out.println("1.Continue");
             System.out.println("2. Exit");

@@ -10,7 +10,7 @@ public class Question5 {
         Scanner scanner = new Scanner(System.in);
         int number;
 
-        //
+        // Implement a do-while loop that prompts the user to enter a number between 1 and 10 until they enter a valid number
         do {
             System.out.print("Enter a number between 1 and 10:");
             number = scanner.nextInt();
