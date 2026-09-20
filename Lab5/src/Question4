@@ -1,0 +1,13 @@
+/*
+*Godiraone Sefofu
+*18001321
+*lab5
+ */
+
+ //Uses Book's getSummary() method to print a summary of a Book object
+ public class Question4 {
+    public static void main(String[] args) {
+        Book book = new Book("What Happened To You", "Oprah Winfrey",153.00);
+        System.out.println(book.getSummary());
+    }
+ }
